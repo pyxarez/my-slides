@@ -77,6 +77,22 @@
   background-image: url('./pictures/redux.svg');
 }
 
+#used-technologies .list__firebase:before {
+  background-image: url('./pictures/firebase.svg');
+}
+
 #used-technologies .list__other:before {
   background-image: url('./pictures/npm.svg');
 }
+
+.flex-wrapper {
+  display: flex;
+  justify-conent: flex-start;
+}
+
+iframe {
+  margin-right: 50px;
+  background: white;
+  min-width: 330px;
+}
+
