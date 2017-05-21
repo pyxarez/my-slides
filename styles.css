@@ -1,0 +1,82 @@
+.slide {
+  padding-top: 20px;
+}
+
+#cover {
+  text-align: center;
+}
+
+#cover strong {
+  display: block;
+}
+
+#cover strong:first-child {
+  margin-bottom: 20px;
+}
+
+#cover p {
+  text-align: center;
+  line-height: 40px;
+}
+
+#cover .student {
+  text-align: right;
+  margin-top: 50px;
+}
+
+#cover h2 {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+#intro {
+  font-size: 20px;
+}
+
+#intro ul {
+  padding-left: 40px;
+}
+
+#used-technologies .list {
+  display: flex;
+  align-items: center;
+}
+
+#used-technologies .list::before {
+  content: '';
+  background-position: center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  padding-right: 0;
+  margin-right: 10px;
+  width: 30px;
+  height: 30px;
+}
+
+#used-technologies ul {
+  padding-left: 40px;
+}
+
+#used-technologies .list__html5:before {
+  background-image: url('./pictures/html5.svg');
+}
+
+#used-technologies .list__css3:before {
+  background-image: url('./pictures/css3.svg');
+}
+
+#used-technologies .list__js:before {
+  background-image: url('./pictures/js.svg');
+}
+
+#used-technologies .list__react:before {
+  background-image: url('./pictures/react.svg');
+}
+
+#used-technologies .list__redux:before {
+  background-image: url('./pictures/redux.svg');
+}
+
+#used-technologies .list__other:before {
+  background-image: url('./pictures/npm.svg');
+}

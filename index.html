@@ -6,59 +6,69 @@
   <meta http-equiv="x-ua-compatible" content="ie=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="shower/themes/material/styles/screen-16x10.css">
+  <link rel="stylesheet" href="./styles.css">
 </head>
 <body class="shower list">
 
   <header class="caption">
-    <h1>My first change</h1>
+    <h1>Biba</h1>
     <p>Yours Truly, Famous Inc.</p>
   </header>
 
   <section class="slide" id="cover">
-    <h2>Shower Presentation Engine</h2>
-    <p>Brought to you by <a href="http://pepelsbey.net">Vadim Makeev</a></p>
+    <p>
+      <strong>
+        Министерство образования и науки РФ
+        Профессионально-педагогический колледж
+        федеральное государственное бюджетное образовательное учреждение
+        высшего профессионального образования
+        «Саратовский государственный технический университет
+        имени Гагарина Ю.А.»
+      </strong>
+      <strong>
+        09.02.03 ПРОГРАММИРОВАНИЕ В КОМПЬЮТЕРНЫХ СИСТЕМАХ
+      </strong>
+    </p>
+    <h2>ПРЕЗЕНТАЦИЯ ДИПЛОМНОГО ПРОЕКТА</h2>
+    <p class='student'>Студента группы ПКС-941<br/>Карелина А.В.</p>
     <figure>
-      <img class="cover" src="pictures/cover.jpg" alt="Hands on the orange typewriter in a park">
-      <figcaption class="white">
-        <a href="http://fiftyfootshadows.net/">© John Carey</a>
-      </figcaption>
+      <img class='cover height' src="pictures/cover.png" alt="Some alt">
     </figure>
-    <style>
-      #cover h2 {
-        margin:30px 0 0;
-        color:#FFF;
-        text-align:center;
-        font-size:70px;
-        }
-      #cover p {
-        margin:10px 0 0;
-        text-align:center;
-        color:#FFF;
-        font-style:italic;
-        font-size:20px;
-        }
-        #cover p a {
-          color:#FFF;
-          }
-    </style>
   </section>
 
-  <section class="slide">
-    <h2>Shower key features</h2>
-    <ol>
-      <li>Built on HTML, CSS and vanilla JavaScript</li>
-      <li>Works in all modern browsers</li>
-      <li>Themes are separated from engine</li>
-      <li>Modular and extensible</li>
-      <li>Fully keyboard accessible</li>
-      <li>Printable to PDF</li>
-    </ol>
-    <p class="note">Shower ['ʃəuə] noun. A person or thing that shows.</p>
+  <section class='slide'>
+    <img class='cover height' src="pictures/slide.jpg" alt="Some alt">
+    <h2>Актуальность</h2>
+    <p>На данный момент в саратове нет аналогочных интернет-магазинов, имеющих возможность составить конкуренцию нашему, так как уступают в скорости, дизайне и качестве интерфейсов.</p>
   </section>
 
-  <section class="slide">
-    <h2>Plain text on your slides</h2>
-    <p>Lorem ipsum dolor sit amet, consectetur <a href="#4">adipisicing</a> elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, <em>quis nostrud</em> exercitation ullamco laboris <strong>nisi ut aliquip</strong> ex ea commodo consequat. Duis aute irure <i>dolor</i> in reprehenderit in voluptate velit esse cillum <b>dolore</b> eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in <code>&lt;culpa&gt;</code> qui officia deserunt mollit anim id est laborum.</p>
+  <section class="slide" id='intro'>
+    <img class='cover height' src="pictures/slide.jpg" alt="Some alt">
+    <h2>Цели и задачи</h2>
+    <p>Целью дипломной работы является разработка интернет-магазина "Кофеёк", предназначенного для продажи разнообразной продукции, в том числе кофе, чая и принадлежностей для них.<br/>Для решения цели нужно выполнить следующие задачи:</p>
+    <ul>
+      <li>Исследовать специфику и особенности работы современных интернет-магазинов.</li>
+      <li>Спроектировать и создать прототип будущего интернет-магазина.</li>
+      <li>Разработать интернет-магазин, позволяющий пользователю быстро и в удобной форме приобрести необходимые ему товары.</li>
+      <li>Провести тестирование разработанного веб-приложения.</li>
+      <li>Рассчитать экономические показатели разработки.</li>
+    </ul>
+  </section>
+
+  <section class="slide" id='used-technologies'>
+    <img class='cover height' src="pictures/slide.jpg" alt="Some alt">
+    <h2>Используемое ПО</h2>
+    <section>
+      <h3>В процессе разработки приложения были использованы следующие технологии:</h3>
+      <ul>
+        <li class="list list__html5">HTML5;</li>
+        <li class="list list__css3">CSS3;</li>
+        <li class="list list__js">JavaScript;</li>
+        <li class="list list__react">JavaScript UI library React;</li>
+        <li class="list list__redux">JavaScript library Redux;</li>
+        <li class="list list__other">И некоторое количество иных вспомогательных технологий.</li>
+      </ul>
+    </section>
   </section>
 
   <section class="slide">
@@ -67,19 +77,10 @@
   </section>
 
   <section class="slide">
-    <h2>All kind of lists</h2>
-    <ol>
-      <li>Simple lists are marked with bullets</li>
-      <li>Ordered lists begin with a number</li>
-      <li>You can even nest lists one inside another
-        <ul>
-          <li>Or mix their types</li>
-          <li>But do not go too far</li>
-          <li>Otherwise audience will be bored</li>
-        </ul>
-      </li>
-      <li>Look, seven rows exactly!</li>
-    </ol>
+    <h2>Главная страница</h2>
+    <iframe src="https://cofeek-d29a2.firebaseapp.com/home" frameborder="0" width="400" height="300">
+        <p>Your browser does not support iframes.</p>
+    </iframe>
   </section>
 
   <section class="slide">
